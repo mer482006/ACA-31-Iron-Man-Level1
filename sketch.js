@@ -15,7 +15,7 @@ function setup() {
   ironMan.addImage("running", ironImage);
   ironMan.scale = 0.3;
 
-  ground=createSprite(200,600,450,10)
+  ground=createSprite(1000,580,450,10)
   ground.visible = false;
   
 }
