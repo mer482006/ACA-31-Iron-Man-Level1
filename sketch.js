@@ -20,15 +20,15 @@ function setup() {
 function draw() {
 
   if (keyDown("up")) {
-    ironMan.velocityY = -10;
+    ironMan.velocityY = -8;
   }
   if (keyDown("left")) {
-    ironMan.x = ironMan.x - 5;
+    ironMan.x = ironMan.x - 4;
   }
   if (keyDown("right")) {
-    ironMan.x = ironMan.x + 5;
+    ironMan.x = ironMan.x + 4;
   }
-  ironMan.velocityY = ironMan.velocityY + 0.5;
+  ironMan.velocityY = ironMan.velocityY + 0.4;
 
     drawSprites();
    
