@@ -14,9 +14,6 @@ function setup() {
   ironMan = createSprite(57, 505, 20, 50);
   ironMan.addImage("running", ironImage);
   ironMan.scale = 0.3;
-
-  ground=createSprite(1000,580,450,10)
-  ground.visible = false;
   
 }
 
@@ -33,7 +30,6 @@ function draw() {
   }
   ironMan.velocityY = ironMan.velocityY + 0.5;
 
-  ironMan.collide(ground)
     drawSprites();
    
 }
